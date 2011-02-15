@@ -6,6 +6,7 @@ LDLib is a library of modules for common programming tasks in LPC.
 It is mainly written for LDMud 3.3.x, although large parts of it probably work
 with minor adjustments on other drivers.
 
+
 Where to find it?
 ----------------
 The source code repository can be found at:
@@ -21,4 +22,9 @@ To use LDLib you will need:
 * the LDMud driver (version >=3.3.717)
   http://ldmud.eu/
   http://github.com/ldmud/ldmud-mirror
+
+
+License issues
+--------------
+The LDLib is released under the 2-clause BSD license as given in COPYING.
 
