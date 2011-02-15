@@ -24,7 +24,7 @@ To use LDLib you will need:
   http://github.com/ldmud/ldmud-mirror
 
 
-License issues
+License
 --------------
-The LDLib is released under the 2-clause BSD license as given in COPYING.
+The LDLib is released under the ISC license as given in COPYING.
 
