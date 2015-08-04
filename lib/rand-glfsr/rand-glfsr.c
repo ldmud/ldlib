@@ -50,7 +50,7 @@ public varargs void init(int seed, int newp)
   // werden mit den unteren 32 bit XOR-rt (also, einmal die oberen 32 shiften
   // und einmal die oberen 32 wegmaskieren.
   seed = ((seed>>32) & 0xffffffff) ^ (seed & 0xffffffff);
-  //printf("Seed: %064b - 0x%x\n",seed,seed);
+  printf("Seed: %064b - 0x%x\n",seed,seed);
   
   if (!seed)
     raise_error("Illegal reduced seed: 0\n");
