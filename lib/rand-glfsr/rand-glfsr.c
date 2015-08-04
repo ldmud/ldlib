@@ -147,7 +147,7 @@ public int Configure(int data)
   if (!data)
     return state;
   
-  if (intp(data))
+  if (!intp(data))
     return 0;
   state = data;
   return 1;
